@@ -50,12 +50,12 @@ const App = () => {
     {id:42, title:"Todo 42", completed:true},
     {id:43, title:"Todo 43", completed:true},
     {id:44, title:"Todo 44", completed:true},
-    {id:45, title:"Todo 45", completed:true},
-    {id:46, title:"Todo 46", completed:true},
+    {id:45, title:"Todo 45", completed:false},
+    {id:46, title:"Todo 46", completed:false},
     {id:47, title:"Todo 47", completed:true},
-    {id:48, title:"Todo 48", completed:true},
-    {id:49, title:"Todo 49", completed:true},
-    {id:50, title:"Todo 50", completed:true}
+    {id:48, title:"Todo 48", completed:false},
+    {id:49, title:"Todo 49", completed:false},
+    {id:50, title:"Todo 50", completed:false}
   ]
   useEffect(()=>{
     setData(todos);
